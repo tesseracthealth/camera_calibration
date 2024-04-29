@@ -176,7 +176,7 @@ if (CMAKE_CUDA_COMPILER)
     libvis_cuda
     libvis_external_io
     ${CERES_LIBRARIES}
-    CUDA::cublas
+    cuda
     opengv
     camera_calibration_apriltag
     yaml-cpp2
